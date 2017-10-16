@@ -1,0 +1,93 @@
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../images/perros.jpg);
+	position: relative;
+	width: 800px;
+  min-height: 100%;
+  margin: 1% auto;
+}
+#titulo{
+  width: 100%;
+  height: 33.333%;
+  background-color: #1B95E0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#titulo h2{
+  color: #E0F7FA;
+}
+#instrucciones{
+  width: 100%;
+  height: 66.666%;
+}
+#instrucciones h4{
+  padding-left: 5%;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  width: 80%;
+  margin: 0;
+  float: left;
+  font-size: 13px;
+  padding-top: 15px;
+  color: #222222;
+}
+.material-icons {
+  width: 15%;
+  color: #000000;
+  float: left;
+  padding-left: 5%;
+  padding-top: 15px;
+}
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #EEEEEE;
+  width: 40%;
+  height: 480px;
+}
+.images{
+  width: 33.333%;
+  height: 33.333%;
+  float: left;
+}
+.images img{
+  width: 100%;
+  border-bottom: 1px solid #009DD0;
+  border-right: 1px solid #009DD0;
+  box-sizing: border-box;
+}
+#footer{
+  padding: 10px 0;
+  background-color: #1B95E0;
+  color: #ffffff;
+  clear: both;
+}
+#footer p{
+  margin: 0;
+  text-align: center;
+  font-style: oblique;
+  font-size: 75%;
+}
+#juego {
+  width: 480px;
+  height: 480px;
+  background-color: #DCF8C6;
+  margin: 0;
+}
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
